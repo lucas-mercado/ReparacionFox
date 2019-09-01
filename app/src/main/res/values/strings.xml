@@ -8,4 +8,14 @@
     <string name="boton_salir">Salir</string>
     <string name="l_fecha_seleccionada">Fecha</string>
     <string name="b_planilla_recepcion">Recepcion</string>
+    <string name="title_activity_reparacion">Reparacion</string>
+    <string name="l_telefono">Telefono :</string>
+    <string name="l_nombre">Nombre :</string>
+    <string name="l_direccion">Direccion :</string>
+    <string name="l_email">Email :</string>
+    <string name="l_dispositivo">Dispositivo :</string>
+    <string name="l_descripcion">Descripcion</string>
+    <string name="b_foto">Foto</string>
+    <string name="b_guardar">Guardar</string>
+    <string name="b_salir">Salir</string>
 </resources>
