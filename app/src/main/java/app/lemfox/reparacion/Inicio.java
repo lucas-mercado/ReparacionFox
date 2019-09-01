@@ -1,5 +1,6 @@
 package app.lemfox.reparacion;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -13,6 +14,7 @@ import android.view.View;
 import android.widget.CalendarView;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class Inicio extends AppCompatActivity {
     private CalendarView fechas;
@@ -46,8 +48,14 @@ public class Inicio extends AppCompatActivity {
         });
     }
 
-    public void imprimir_fecha(View v){
-
+    public void recepcion(View v){
+        if(!txt_fecha.getText().toString().equals("Fecha")) {
+            Intent in = new Intent(this, Reparacion.class);
+            in.putExtra("getFecha", txt_fecha.getText().toString());
+            startActivity(in);
+        }
+        else
+            Toast.makeText(this,"No a selecionado una fecha ",Toast.LENGTH_SHORT).show();
     }
 
 }
