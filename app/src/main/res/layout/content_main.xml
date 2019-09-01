@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -35,7 +35,7 @@
                 android:layout_width="30dp"
                 android:layout_height="40dp"
                 android:layout_weight="1"
-                android:text="Usuario :"
+                android:text="@string/text_usuario"
                 android:textAllCaps="true"
                 android:textColor="@color/colorAccent"
                 android:textSize="14sp"
@@ -63,7 +63,7 @@
                 android:layout_width="30dp"
                 android:layout_height="40dp"
                 android:layout_weight="1"
-                android:text="Contraseña :"
+                android:text="@string/text_contrasenia"
                 android:textAllCaps="true"
                 android:textColor="@color/colorAccent"
                 android:textSize="14sp"
@@ -93,7 +93,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:backgroundTint="@color/colorAccent"
-                android:text="Ingresar" />
+                android:onClick="irInicio"
+                android:text="@string/boton_ingresar" />
 
             <Button
                 android:id="@+id/b_salir"
@@ -101,7 +102,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:backgroundTint="@color/colorAccent"
-                android:text="Salir" />
+                android:text="@string/boton_salir" />
         </LinearLayout>
 
         <FrameLayout
@@ -119,4 +120,4 @@
         </FrameLayout>
 
     </LinearLayout>
-</androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

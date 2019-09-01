@@ -1,4 +1,21 @@
 <resources>
-    <string name="app_name">Reparacion</string>
-    <string name="action_settings">Settings</string>
+    <string name="app_name">LemFox</string>
+    <string name="action_settings">Configuracion</string>
+    <string name="title_activity_inicio">Bienvenido</string>
+    <string name="text_usuario">Usuario :</string>
+    <string name="text_contrasenia">Contraseña :</string>
+    <string name="boton_ingresar">Ingresar</string>
+    <string name="boton_salir">Salir</string>
+    <string name="l_fecha_seleccionada">Fecha</string>
+    <string name="b_planilla_recepcion">Recepcion</string>
+    <string name="title_activity_reparacion">Reparacion</string>
+    <string name="l_telefono">Telefono :</string>
+    <string name="l_nombre">Nombre :</string>
+    <string name="l_direccion">Direccion :</string>
+    <string name="l_email">Email :</string>
+    <string name="l_dispositivo">Dispositivo :</string>
+    <string name="l_descripcion">Descripcion</string>
+    <string name="b_foto">Foto</string>
+    <string name="b_guardar">Guardar</string>
+    <string name="b_salir">Salir</string>
 </resources>
